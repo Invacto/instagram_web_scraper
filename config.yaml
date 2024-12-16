@@ -1,0 +1,5 @@
+server-config:
+  configs: 16
+  residential-proxies: 1
+  datacenter-proxies: 5
+  users: 50000

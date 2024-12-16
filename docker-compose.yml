@@ -1,0 +1,14 @@
+
+services:
+  app:
+    build: .
+    ports:
+      - "5000-5015:5000"  
+    environment:
+      - PYTHONUNBUFFERED=1
+    deploy:
+      replicas: 16
+      resources:
+        limits:
+          cpus: '8.0'
+          memory: 20G

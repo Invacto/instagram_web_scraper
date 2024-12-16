@@ -1,0 +1,8 @@
+requests
+Pillow
+opencv-python
+numpy
+Flask
+boto3
+b2sdk
+docker
